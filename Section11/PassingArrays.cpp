@@ -37,6 +37,7 @@ void set_array(int arr[],size_t size,int value){
     for(size_t i{0};i<size;++i)
     arr[i]=value;
 }
+//main file
 
 int main(){
     int my_score[]{1000,98,90,86,83};

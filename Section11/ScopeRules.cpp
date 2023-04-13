@@ -18,8 +18,8 @@ int main() {
     cout << num1 << endl; // prints 2000
      {
         cout << num1 << endl; // prints 1000
-        int num1 {400}; // num changed to 2400
-        cout << num1 << endl; // prints 2400
+        int num1 {400}; // num changed to 400
+        cout << num1 << endl; // prints 400
     }
     return 0; 
 

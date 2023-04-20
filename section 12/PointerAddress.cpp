@@ -39,7 +39,7 @@ int main () {
 
     TempPtr = &LowTemp; // points to low temp
     TempPtr = &HighTemp; // points to high temp
-    TempPtr = &temp; // compile error because of different datatype accessing it 
+    // TempPtr = &temp; // compile error because of different datatype accessing it 
     TempPtr = nullptr; // points to zero
 
     return 0;

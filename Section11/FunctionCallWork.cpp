@@ -16,6 +16,6 @@ int main () {
     int y {20}; // y is assigned 20
     int z{}; // z is assigned 0
     z = funct1(x , y); // function 1 is called with x ,y as its parameters
-    cout << z << endl; // z is displayed which gets to 60
-    return 0;
+    cout << z << endl; // z is displayed which gets to 60 
+    return 0; // program finishes
 }
